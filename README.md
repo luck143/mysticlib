@@ -1,5 +1,7 @@
 # mysticlib
 Mysticscripts.net Astrology Apps API Client Demo - For RapidAPI App https://rapidapi.com/mysticscripts/api/astrology5
+<p>Live Demo using this Code base <a href='https://www.mysticscripts.net/rapidapidocs/'>Here</a>
+
 
 <h1>How to Use this Code Sample</h1>
 <p>Register account in Rapidapi and visit link <a href='https://rapidapi.com/mysticscripts/api/astrology5'>Here</a>
