@@ -1,0 +1,124 @@
+.mystic_app .mysticform-card {
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.56s cubic-bezier(0.25, 0.8, 0.25, 1);
+    max-width: 500px;
+    padding: 0;
+    margin: 50px auto;
+    }
+    .mystic_app .mysticform-card:hover,
+    .mystic_app .mysticform-card:focus {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    .mystic_app .mysticform-card:focus-within {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    .mystic_app .form-fieldset {
+    padding: 30px;
+    border: 0;
+    }
+    .mystic_app .form-fieldset + .form-fieldset {
+    margin-top: 15px;
+    }
+    
+    
+    .mysticform-card{
+        min-height:345px;
+        position:relative;
+        perspective:1000px;
+        transform-style:preserve-3d;
+    }
+    .mysticform-card .group{
+        margin-bottom:15px;
+    }
+    
+    .mysticform-card .group .check{
+        display:none;
+    }
+   
+    .mysticform-card .group .label,
+    .mysticform-card .group .button{
+        text-transform:uppercase;
+    }
+
+    .mysticform-card .sign-in:checked + .tab,
+    .mysticform-card .sign-up:checked + .tab{
+        color:#fff;
+        border-color:#1161ee;
+    }
+    
+    .mysticform-card .group .label,
+    .mysticform-card .group .input,
+    .mysticform-card .group .button{
+        width:100%;
+        color:#373434;
+        display:block;
+    }
+    .mysticform-card .group .input,
+    .mysticform-card .group .button{
+        border:none;
+        padding: 5px 5px;
+        border-radius:25px;
+        background: rgba(47, 46, 46, 0.1);
+    }
+    .mysticform-card .group input[data-type="password"]{
+        text-security:circle;
+        -webkit-text-security:circle;
+    }
+    .mysticform-card .group .label{
+        color:#aaa;
+        font-size:12px;
+    }
+    .mysticform-card .group .button{
+        background: #568cec;
+		color: #fff;
+        font-size: large;
+        white-space: normal;
+    }
+    .mysticform-card .group label .icon{
+        width:15px;
+        height:15px;
+        border-radius:2px;
+        position:relative;
+        display:inline-block;
+        background:rgba(255,255,255,.1);
+    }
+    .mysticform-card .group label .icon:before,
+    .mysticform-card .group label .icon:after{
+        content:'';
+        width:10px;
+        height:2px;
+        background:#fff;
+        position:absolute;
+        transition:all .2s ease-in-out 0s;
+    }
+    .mysticform-card .group label .icon:before{
+        left:3px;
+        width:5px;
+        bottom:6px;
+        transform:scale(0) rotate(0);
+    }
+    .mysticform-card .group label .icon:after{
+        top:6px;
+        right:0;
+        transform:scale(0) rotate(0);
+    }
+    .mysticform-card .group .check:checked + label{
+        color:#fff;
+    }
+    .mysticform-card .group .check:checked + label .icon{
+        background:#1161ee;
+    }
+    .mysticform-card .group .check:checked + label .icon:before{
+        transform:scale(1) rotate(45deg);
+    }
+    .mysticform-card .group .check:checked + label .icon:after{
+        transform:scale(1) rotate(-45deg);
+    }
+    .mysticform-card .sign-in:checked + .tab + .sign-up + .tab + .mysticform-card .sign-in-htm{
+        transform:rotate(0);
+    }
+    .mysticform-card .sign-up:checked + .tab + .mysticform-card .sign-up-htm{
+        transform:rotate(0);
+    }

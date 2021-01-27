@@ -1,0 +1,195 @@
+.mystic_h1, .mystic_h2, .mystic_h3, .mystic_h4, .mystic_h5, .mystic_h6 {
+    margin-bottom: 0.5rem;
+    font-family: "Comfortaa", cursive, "Times New Roman", Times, serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #464855; }
+  
+  .mystic_h1 {
+    font-size: 2rem; }
+  
+  .mystic_h2 {
+    font-size: 1.74rem; }
+  
+  .mystic_h3 {
+    font-size: 1.51rem; }
+  
+  .mystic_h4 {
+    font-size: 1.32rem; }
+  
+  .mystic_h5 {
+    font-size: 1.14rem; }
+  
+  .mystic_h6 {
+    font-size: 1rem; }
+  
+  .mystic_small {
+    font-size: 80%;
+    font-weight: 400; }
+  
+  .mystic_img-fluid {
+        max-width: 100%;
+        height: auto; }
+  
+  .mystic_img-thumbnail {
+    padding: 0.25rem;
+    background-color: #F9FAFD;
+    border: 1px solid #626E82;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto; }
+    
+  .mystic_img-rounded {
+    padding: 0.25rem;
+    background-color: #F9FAFD;
+    border: 1px solid #626E82;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto; }
+  
+  .mystic_bg-info {
+    background-color: #28afd0 !important; 
+  }
+  .mystic_bg-primary {
+    background-color: #6967ce !important; }
+  
+  .mystic_bg-secondary {
+    background-color: #6b6f80 !important; }
+  
+  .mystic_bg-success {
+    background-color: #5ed84f !important; }
+  
+  .mystic_bg-warning {
+    background-color: #fdb901 !important; }
+  
+  .mystic_bg-danger {
+    background-color: #fa626b !important; }
+  
+  .mystic_bg-light {
+    background-color: #BABFC7 !important; }
+  
+  .mystic_bg-dark {
+    background-color: #464855 !important; }
+  
+  .mystic_bg-white {
+    background-color: #fff !important; }
+  
+  .mystic_bg-transparent {
+    background-color: transparent !important; }
+  
+  .mystic_text-monospace {
+    font-family: "Comfortaa", cursive, "Times New Roman", Times, serif !important; }
+  
+  .mystic_text-justify {
+    text-align: justify !important; }
+  
+  .mystic_text-wrap {
+    white-space: normal !important; }
+  
+  .mystic_text-nowrap {
+    white-space: nowrap !important; }
+  
+  .mystic_text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  
+  .mystic_text-left {
+    text-align: left !important; }
+  
+  .mystic_text-right {
+    text-align: right !important; }
+  
+  .mystic_text-center {
+    text-align: center !important; }
+  
+  
+  .mystic_w-25 {
+    width: 25% !important; }
+  
+  .mystic_w-50 {
+    width: 50% !important; }
+  
+  .mystic_w-75 {
+    width: 75% !important; }
+  
+  .mystic_w-100 {
+    width: 100% !important; }
+  
+  .mystic_w-auto {
+    width: auto !important; }
+  
+  .mystic_h-25 {
+    height: 25% !important; }
+  
+  .mystic_h-50 {
+    height: 50% !important; }
+  
+  .mystic_h-75 {
+    height: 75% !important; }
+  
+  .mystic_h-100 {
+    height: 100% !important; }
+  
+  .mystic_h-auto {
+    height: auto !important; }
+  
+  .mystic_mw-100 {
+    max-width: 100% !important; }
+  
+  .mystic_mh-100 {
+    max-height: 100% !important; }
+  
+  .mystic_min-vw-100 {
+    min-width: 100vw !important; }
+  
+  .mystic_min-vh-100 {
+    min-height: 100vh !important; }
+  
+  .mystic_vw-100 {
+    width: 100vw !important; }
+  
+  .mystic_vh-100 {
+    height: 100vh !important; }
+  
+  .mystic_float-left {
+    float: left !important; }
+  
+  .mystic_float-right {
+    float: right !important; }
+  
+  .mystic_float-none {
+    float: none !important; }
+  
+  @media all and (max-width:768px) {
+      .mystic-table tr {
+              display: table;  width:100%;   border: none; padding:30px;
+              }               
+      .mystic-table td {
+              display: table-row; border: none; 
+              }      
+      .mystic-table th {
+          display:table-row; border: none;  
+          }           
+  }
+  
+  .mystic_font-small-1 {
+    font-size: 0.7rem !important; }
+
+/* ====== Custom Css ======= */
+.mystic_center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.mystic_color{
+  font-size:18px;
+  color:#bf1919;
+}
+
+.align-text{
+  position: relative;
+  top: 50px;
+}
