@@ -38,3 +38,4 @@ echo "<br>".$GLOBALS['SITE_URL']."demo_application_details.php?app=japanese-astr
 echo "<br>".$GLOBALS['SITE_URL']."demo_application_details.php?app=tarot-the-gypsy-spread";
 
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

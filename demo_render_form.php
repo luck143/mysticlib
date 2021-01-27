@@ -67,7 +67,7 @@ else
 
 echo "<hr><h2>Form </h2>";
 //print_array($result);
-echo $result['data'];
+echo @$result['data'];
 
 echo "<hr>More Examples :";
 
@@ -77,5 +77,6 @@ echo "<br>".$GLOBALS['SITE_URL']."demo_render_form.php?app=japanese-astrology";
 echo "<br>".$GLOBALS['SITE_URL']."demo_render_form.php?app=tarot-the-gypsy-spread";
 
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <link rel="stylesheet" href="form.css">

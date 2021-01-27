@@ -31,12 +31,12 @@ if(strlen(@$_REQUEST['mystic_submit'])>0)
     }
     else
     {
-        echo "<br> Error : " .$result;
+        echo "<br> Error : " .@$result;
         exit;
     }
     ?>								
     <h1>Result : </h1>
-    <?php print_array($result);?>
+    <?php print_array(@$result);?>
     
     <?php
 }
@@ -52,3 +52,4 @@ else
 }
 
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

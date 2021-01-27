@@ -5,7 +5,7 @@
 <br>Open File mysticlib.php and Edit "$GLOBALS['apihost']" and "$GLOBALS['apikey']" Values with your own RapidAPI Account Details.
 
 
-<h2>API ENPOINTS Demos</h2>
+<h2>API ENDPOINTS Demos</h2>
 <h3>Endpoint - /listapps/astrology/</h3>
 <p>Get List of all Application in 'Astrology' Category (including subcategories)</p>
 
@@ -66,3 +66,6 @@
 <p>Result Generation File - demo_application_result.php</p>
 
 <hr>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

@@ -8,7 +8,7 @@ Mysticscripts.net Astrology Apps API Client Demo - For RapidAPI App https://rapi
 <br>Open File mysticlib.php and Edit "$GLOBALS['apihost']" and "$GLOBALS['apikey']" Values with your own RapidAPI Account Details.
 
 
-<h2>API ENPOINTS Demos</h2>
+<h2>API ENDPOINTS Demos</h2>
 <h3>Endpoint - /listapps/astrology/</h3>
 <p>Get List of all Application in 'Astrology' Category (including subcategories)</p>
 

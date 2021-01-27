@@ -19,14 +19,19 @@ else
 }
 
 echo "<hr><h2>Applciations</h2>";
-foreach(@$result['data']['data'] as $entry)
+if(is_array(@$result['data']['data']) and (count(@$result['data']['data'])>0))
 {
-    echo "<br>**********************************";
-    echo "<br>Applications ID : ".@$entry['id'];
-    echo "<br>Applications Name : ".ucwords(@$entry['name']);
-    echo "<br>Application Image : ".@$entry['image'];
-    echo "<br>Applications category : ".@$entry['category'];
+    foreach(@$result['data']['data'] as $entry)
+    {
+        echo "<br>**********************************";
+        echo "<br>Applications ID : ".@$entry['id'];
+        echo "<br>Applications Name : ".ucwords(@$entry['name']);
+        echo "<br>Application Image : ".@$entry['image'];
+        echo "<br>Applications category : ".@$entry['category'];
+    }
 }
-
 echo "<hr><h2>Raw result</h2>";
 print_array($result);
+
+?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

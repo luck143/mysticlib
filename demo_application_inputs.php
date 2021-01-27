@@ -17,7 +17,7 @@ $url=$GLOBALS['apiurl'].'inputs/'.$appid.'/';
 echo "<br> Calling API Endpoint : " .@$url;
 $response=curl_get($url,$GLOBALS['rapidapi_header']);
 $result=json_decode(@$response,true);
-if(is_array($result))
+if(is_array(@$result))
 {
     //print_array($result);
 }
@@ -28,10 +28,10 @@ else
 }
 
 echo "<hr><h2>Application Requirements</h2>";
-print_array($result);
+print_array(@$result);
 
 echo "<hr><h2>Demo Form Make using the above requirements :</h2>";
-echo $form=form_render($result['data'],$appid);
+echo $form=form_render(@$result['data'],@$appid);
 
 
 echo "<hr><h2>More Examples :</h2>";
@@ -40,4 +40,6 @@ echo "<br>".$GLOBALS['SITE_URL']."demo_application_inputs.php?app=japanese-astro
 echo "<br>".$GLOBALS['SITE_URL']."demo_application_inputs.php?app=tarot-the-gypsy-spread";
 
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 <link rel="stylesheet" href="form.css">

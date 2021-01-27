@@ -1,6 +1,6 @@
 <?php
 $GLOBALS['apihost']='astrology5.p.rapidapi.com';
-$GLOBALS['apikey']='f305f6857amsh3426b813d24f974p1bcd4ejsn0e19677120f4';
+$GLOBALS['apikey']='ADDYOURAPIKEY';
 $GLOBALS['apiurl']='https://'.$GLOBALS['apihost'].'/';
 $GLOBALS['rapidapi_header']=[
     "x-rapidapi-host: ".$GLOBALS['apihost'],
