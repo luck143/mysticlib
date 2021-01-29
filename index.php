@@ -55,30 +55,23 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
     <br>
     <br>&nbsp;&nbsp;&nbsp; Live Demo Result of this page -<a href="https://www.mysticscripts.net/rapidapidocs/demo_fetch.php">Click Here</a>
     <p>
-        <br>
-        <br>
-        <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
+       
     </p>
     <hr>
-    <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
     <h3><br></h3>
     <h3>Endpoint - /details/{application_id}</h3>
     <p>
         <br>
     </p>
-    <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
     <p>Get Detail of Application</p>
     <p>To check this Endpoint Details <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_d/1611913542723/">click here</a> 
         <br>
     </p>
-    <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
     <p>Check Code in File - <a href="https://github.com/luck143/mysticlib/blob/main/demo_application_details.php">demo_application_details.php</a>
     </p>
-    <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
     <p>Live Demo Result of this page -<a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_d/1611913542723/">Click Here</a>
     </p>
     <br>
-    <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
     <hr>
     <br>
     <h2>Working with Rendered HTML Codes</h2>
@@ -115,7 +108,7 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
     <p>Render Application RESULT in HTML CODE :
         <br>This Endpoint will output the Rendered HTML Code for the application result.
         <br>Please use your own css File to display this HTML code.</p>
-    <p>To check this Endpoint Details&nbsp; <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_r/1611924014903/">click here <br></a>
+    <p>To check this Endpoint Details&nbsp; <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_r/1611924014903/">click here </a>
     </p>
     <p>Check Code in File -&nbsp; demo_render_result.php
         <br>

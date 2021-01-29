@@ -1,6 +1,5 @@
 # mysticlib
 Mysticscripts.net Astrology Apps API Client Demo - For RapidAPI App https://rapidapi.com/mysticscripts/api/astrology5
-Mysticscripts.net Astrology Apps API Client Demo - For RapidAPI App https://rapidapi.com/mysticscripts/api/astrology5
 <p>Live Demo using this Code base <a href='https://www.mysticscripts.net/rapidapidocs/'>Here</a>
 
 <h1>How to use Mysticscripts API</h1>
@@ -16,8 +15,8 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
 <br>Open File mysticlib.php and Edit "$GLOBALS['apihost']" and "$GLOBALS['apikey']" Values with your own RapidAPI Account Details.
 
 
-<img src="https://i.gyazo.com/f0d9b196a0539cfe5380835170ae8c17.png" alt="..." />
-
+<img src="https://i.gyazo.com/f0d9b196a0539cfe5380835170ae8c17.png" alt="..." style="width:100%;" class="litespeed-loading" data-was-processed="true">
+	
 <p></p>
 <p>API Endpoints Explainations and Demos - RapidAPI Version</p>
 <p>
@@ -57,30 +56,23 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
 <br>
 <br>&nbsp;&nbsp;&nbsp; Live Demo Result of this page -<a href="https://www.mysticscripts.net/rapidapidocs/demo_fetch.php">Click Here</a>
 <p>
-    <br>
-    <br>
-    <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
+    
 </p>
 <hr>
-<a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
 <h3><br></h3>
 <h3>Endpoint - /details/{application_id}</h3>
 <p>
     <br>
 </p>
-<a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
 <p>Get Detail of Application</p>
 <p>To check this Endpoint Details <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_d/1611913542723/">click here</a> 
     <br>
 </p>
-<a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
 <p>Check Code in File - <a href="https://github.com/luck143/mysticlib/blob/main/demo_application_details.php">demo_application_details.php</a>
 </p>
-<a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
 <p>Live Demo Result of this page -<a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_d/1611913542723/">Click Here</a>
 </p>
 <br>
-<a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_f/1611852958245/"></a>
 <hr>
 <br>
 <h2>Working with Rendered HTML Codes</h2>
@@ -117,7 +109,7 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
 <p>Render Application RESULT in HTML CODE :
     <br>This Endpoint will output the Rendered HTML Code for the application result.
     <br>Please use your own css File to display this HTML code.</p>
-<p>To check this Endpoint Details&nbsp; <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_r/1611924014903/">click here <br></a>
+<p>To check this Endpoint Details&nbsp; <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_r/1611924014903/">click here </a>
 </p>
 <p>Check Code in File -&nbsp; demo_render_result.php
     <br>
@@ -157,22 +149,3 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
 </p>Check Code in File - <a href="https://github.com/luck143/mysticlib/blob/main/demo_application_result.php">demo_application_result.php</a>
 <p>Live Demo Result of this page -<a href="https://www.mysticscripts.net/rapidapidocs/demo_application_result.php">Click Here</a>
 </p>
-<p>
-    <br>
-</p>
-<p>
-    <br>
-</p>
-<p>
-    <br>
-</p>
-<p></p>
-<br>
-<p>Date : <span class="badge bg-primary">2021-01-29 18:28:22</span>
-</p>
-<p>Category : <a class="badge bg-secondary" href="https://www.mysticscripts.net/blog/categories/documentation/">Documentation</a>
-</p>
-<p>Tags : <a class="badge bg-success" href="https://www.mysticscripts.net/blog/tags/rapidapi/">Rapidapi</a>
-</p>
-
-
