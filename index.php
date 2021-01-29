@@ -24,7 +24,7 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
     <h2>API ENDPOINTS Demos</h2>
     <h3>Endpoint - /listapps/astrology/</h3>
     <p>Get List of all Application in 'Astrology' Category (including subcategories)</p>
-    <p>To check this Endpoint Details <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_o/1611850054307/">click here</a> 
+    <p>To check this Endpoint Details <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_l/1611844118504/">click here</a> 
         <br>
     </p>
     <p>Check code in File - <a href="https://github.com/luck143/mysticlib/blob/main/demo_listapps.php">demo_listapps.php</a>
@@ -34,7 +34,7 @@ Check this article <a href='https://www.mysticscripts.net/blog/post/how_to_use_g
     <hr>
     <h3>Endpoint - /overview/</h3>
     <p>Get List of all Categories , Sub Categories and Applications in a TREE Format</p>
-    <p>To check this Endpoint Details <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_l/1611844118504/">click here</a>
+    <p>To check this Endpoint Details <a href="https://www.mysticscripts.net/blog/post/api_endpoint_explaination_o/1611850054307/">click here</a>
     </p>
     <p>Check Code in File - <a href="https://github.com/luck143/mysticlib/blob/main/demo_overview.php">demo_fetch.php</a>
     </p>
