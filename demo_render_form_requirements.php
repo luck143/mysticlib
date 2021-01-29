@@ -2,17 +2,6 @@
 require_once(__DIR__.'/mysticlib.php');
 //print_array($GLOBALS);
 
-$appid='';
-if(strlen(@$_REQUEST['app'])>0)
-{
-    $appid=@$_REQUEST['app'];
-}
-else
-{
-    $appid='all-in-one';
-}
-
-
 $url=$GLOBALS['apiurl'].'render_form_inputs/';
 
 echo "<br> Calling API Endpoint : " .@$url;
